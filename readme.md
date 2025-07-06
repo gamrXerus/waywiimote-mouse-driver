@@ -1,4 +1,4 @@
-# xwiimote-mouse-driver
+# waywiimote-mouse-driver (modification of xwiimote-mouse-driver https://github.com/MrApplejuice/xwiimote-mouse-driver)
 
 This project implements a userspace mouse driver for Linux (root required).
 The general design is to interface with the kernel wiimote driver using
@@ -20,7 +20,7 @@ The documentation can be found at https://mrapplejuice.github.io/xwiimote-mouse-
 
 [Full license text](LICENSE.md)
 
-xwiimote-mouse-driver is a user-space mouse driver that allows using a wiimote
+waywiimote-mouse-driver is a user-space mouse driver that allows using a wiimote
 as a mouse on a desktop computer.
 
 Copyright (C) 2024  Paul Konstantin Gerke
