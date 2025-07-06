@@ -16,7 +16,7 @@ this excellent blog post on how to get started with libevdev virtual mice:
 
 The documentation can be found at https://mrapplejuice.github.io/xwiimote-mouse-driver/#
 
-#How To Compile:
+# How To Compile:
     1. git clone https://github.com/gamrXerus/waywiimote-mouse-driver.git
     2. Navigate into the driver's directory:
        Bash
