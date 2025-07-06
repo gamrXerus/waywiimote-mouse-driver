@@ -1,0 +1,8 @@
+#define BTN_LEFT		0x110		Left Button
+#define BTN_RIGHT		0x111		Right Button
+#define BTN_MIDDLE		0x112		Middle Button
+#define BTN_FORWARD		0x115		Forward
+#define BTN_BACK		0x116		Back
+#define BTN_SIDE		0x113
+#define BTN_EXTRA		0x114
+#define BTN_TASK		0x117
