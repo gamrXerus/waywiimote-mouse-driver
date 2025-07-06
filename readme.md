@@ -24,15 +24,7 @@ The documentation can be found at https://mrapplejuice.github.io/xwiimote-mouse-
     3. Prepare the build process:
        Bash
        cmake .
-    4. Fix the Driver's Build Bugs. This specific driver has two known bugs in its build process that we must work around.
-       First, build its networking dependency separately to avoid a race condition:
-       Bash
-       make sockpp-install
-    5. Next, fix the lib vs lib64 path bug. The driver looks for a file in a lib folder, but it was created in a lib64 folder. Create a link to fix this broken path:
-       Bash
-       mkdir -p sockpp-install/lib
-       ln -s ../lib64/libsockpp.a sockpp-install/lib/libsockpp.a
-    6. Finally, build the main program:
+    4. Finally, build the main program:
        Bash
        make
 
