@@ -100,7 +100,7 @@ target_link_libraries(
         PkgConfig::evdev
         PkgConfig::xwiimote
         ${WAYLAND_LIBRARIES}
+        "${CMAKE_BINARY_DIR}/sockpp-install/lib64/libsockpp.a"
 )
-find_library(SOCKPP_LIBRARY libsockpp.a HINTS "${CMAKE_BINARY_DIR}/sockpp-install/lib" "${CMAKE_BINARY_DIR}/sockpp-install/lib64")
-target_link_libraries(waywiimote-mouse-driver ${SOCKPP_LIBRARY})
+
 add_compile_options(waywiimote-mouse-driver -Wall ${WAYLAND_CFLAGS})
