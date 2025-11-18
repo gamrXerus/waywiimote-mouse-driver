@@ -18,7 +18,7 @@ pkg_search_module(
 pkg_search_module(
     xwiimote REQUIRED
     IMPORTED_TARGET
-    libxwiimote
+    libxwiimote-ng libxwiimote
 )
 
 pkg_check_modules(WAYLAND REQUIRED wayland-client wayland-protocols)
