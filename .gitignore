@@ -1,0 +1,36 @@
+# Build artifacts
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+*.cmake
+
+# Build directories
+sockpp-install/
+sockpp-prefix/
+build/
+
+# Compiled binaries
+waywiimote-mouse-driver
+mouse-test
+test-maths
+xwiimote-test
+
+# Object files
+*.o
+*.so
+*.a
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Source installations
+xwiimote-ng/
+
+# Scripts
+uninstall-xwiimote-ng.sh

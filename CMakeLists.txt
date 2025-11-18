@@ -104,3 +104,13 @@ target_link_libraries(
 )
 
 add_compile_options(waywiimote-mouse-driver -Wall ${WAYLAND_CFLAGS})
+
+# Install the main driver
+install(TARGETS waywiimote-mouse-driver
+    RUNTIME DESTINATION bin
+)
+
+# Install wmd wrapper script
+install(PROGRAMS wmd
+    DESTINATION bin
+)

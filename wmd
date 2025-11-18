@@ -1,0 +1,3 @@
+#!/bin/bash
+# Wrapper script for waywiimote-mouse-driver
+exec waywiimote-mouse-driver "$@"
